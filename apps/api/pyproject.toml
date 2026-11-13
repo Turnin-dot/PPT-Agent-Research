@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "ppt-agent-application"
+version = "0.1.0"
+description = "PPT application assembly; no HTTP server is claimed"
+requires-python = ">=3.10"
+dependencies = ["ppt-agent-harness", "ppt-agent-domain"]
+[tool.setuptools.packages.find]
+where = ["src"]

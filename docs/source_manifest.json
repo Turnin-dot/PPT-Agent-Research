@@ -1,0 +1,385 @@
+{
+  "source_description": "PPT Agent local research prototype, snapshot 2026-11-13",
+  "files": [
+    {
+      "path": "agent_harness/src/agent_harness/__init__.py",
+      "source_sha256": "a4c056ef8323569b798cea39f76e89cd05a798713441c62586f9197cd0299a9c"
+    },
+    {
+      "path": "agent_harness/src/agent_harness/core/__init__.py",
+      "source_sha256": "991c8d931da737190927786ad2603c1bd84fffd7a9ec8655b68833e6a2aaf2bf"
+    },
+    {
+      "path": "agent_harness/src/agent_harness/core/context.py",
+      "source_sha256": "e63d6f40ff9247c2f313eb34ed3d41ff25266d6e30153a12862a83730526bbb9"
+    },
+    {
+      "path": "agent_harness/src/agent_harness/core/events.py",
+      "source_sha256": "bce2a4177447d78e6eae9a475456cda7291fecb500398b90408233715e9187b0"
+    },
+    {
+      "path": "agent_harness/src/agent_harness/core/loop.py",
+      "source_sha256": "6576fa631a4f89b616ecccebf8fb1adcfb8f47fc11575fdd4114f3813b67e873"
+    },
+    {
+      "path": "agent_harness/src/agent_harness/core/messages.py",
+      "source_sha256": "3c670bd4645d188d2e390c859ec7c5092c14dc98b977b15e792bbf6f3597dfff"
+    },
+    {
+      "path": "agent_harness/src/agent_harness/core/metering.py",
+      "source_sha256": "6344f109f5b32c5977ddf3ccbe97c47ac50ae4a12b910a61c63e71755af34364"
+    },
+    {
+      "path": "agent_harness/src/agent_harness/core/models.py",
+      "source_sha256": "e8dda4d1dccde23cd1a98be9778ba2e4b7309b7421c1f0b435aa8b3f0ae97200"
+    },
+    {
+      "path": "agent_harness/src/agent_harness/core/toolkit.py",
+      "source_sha256": "0899a4abded4495a1ec0cebce05e73385766937b05d9d4e655d184aec2a11478"
+    },
+    {
+      "path": "agent_harness/src/agent_harness/core/tools.py",
+      "source_sha256": "5f461a371d7790b089506d3d775ab5e82a1e912643e06298cdd3f0dca3038ebd"
+    },
+    {
+      "path": "agent_harness/src/agent_harness/py.typed",
+      "source_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "agent_harness/src/agent_harness/runtime/__init__.py",
+      "source_sha256": "0fce887f5340f787b84f6abf02d7dea0725ca81254302c0d4b1e324da5ed21e8"
+    },
+    {
+      "path": "agent_harness/src/agent_harness/runtime/harness.py",
+      "source_sha256": "547c589349f4f7147c7d88c0e452b7489b5cb3e887b8db0064ba54f4ea62be0f"
+    },
+    {
+      "path": "agent_harness/src/agent_harness/runtime/hooks.py",
+      "source_sha256": "2e4b0f5a916802c13554864132784ba7ec53c556f965e88a7f2b5e613a7f3e84"
+    },
+    {
+      "path": "agent_harness/src/agent_harness/runtime/mcp.py",
+      "source_sha256": "cbc2c5d0d138f0fd57cebbe52f057b08d3a9d21c07740655210b26277953317a"
+    },
+    {
+      "path": "agent_harness/src/agent_harness/runtime/permissions.py",
+      "source_sha256": "9cb6372da56df7f32f031aea39b87a80e7180810e55c5f760f953a6d5604a8f0"
+    },
+    {
+      "path": "agent_harness/src/agent_harness/runtime/session.py",
+      "source_sha256": "65cd8ea8fb01ae220e615b835dde992b44ed5266a48ae486e17f899190e5b121"
+    },
+    {
+      "path": "agent_harness/src/agent_harness/runtime/skills.py",
+      "source_sha256": "2d151fde136143bb26aec90b2526664397413102f51ce99cd9fa145b271b51bf"
+    },
+    {
+      "path": "agent_harness/src/agent_harness/runtime/subagents.py",
+      "source_sha256": "3a5a91f951999ff616238bb3dd5017a30ba353a189347fbf4ae9f99897674ae4"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/__init__.py",
+      "source_sha256": "42bc7587ada9634cd8b519dffdc508cafd339277f49234ff54366cb4bbc5da8b"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/__init__.py",
+      "source_sha256": "22dbbf56e55feebcb8eec3c4850133860e0466180e95197685eef6b7004cd90d"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/config.py",
+      "source_sha256": "bb14dd724436c24c47c52ee492b5222d3fa2ac6fc20aec84d924631e9c63104e"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/hybrid.py",
+      "source_sha256": "02c67883e521a35b48ab8449bf5e22aa83bdd50f812991684efc7f5de8cf4a67"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/metadata.py",
+      "source_sha256": "9562fed70d70d28a2dca947fd2b0af2889028a122f38366078c58a1d2edd6736"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/page_markdown.py",
+      "source_sha256": "6ee20d573e55883258edc1df5143315562be531230beb1a8c98a6671a2751605"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/provenance.py",
+      "source_sha256": "6f07594089cbd47d252d363d6d9522baa3b624ddbbf6e51422dddc709cd5fb44"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/reliability.py",
+      "source_sha256": "4eb0f30ea5c6ef28107d4acae0d6ae8e589347d4ccade6a8f85e04c9294743d9"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/result_schemas.py",
+      "source_sha256": "ef3e0a2c2a22a52ab9bd544fb98863419042e2b275a4de85eee529650e630b20"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/review.py",
+      "source_sha256": "51ac63abee24119f74f230dbf9a39ab4f4e4d267421934cbb206748f0b9bc9eb"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/service.py",
+      "source_sha256": "ee434458dbe09cda92dc75715d4186e5e9b7471883219a83ded69d498153e659"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/storage.py",
+      "source_sha256": "5ff428592fc28c92ae2aebd813c70774cd61fad3d19aa46d1e0396cc667d3fa3"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/table_inspection.py",
+      "source_sha256": "31aa406bc802d5cd89ffbf20dc6617b191a0adafeec5a54cf1ebf03dfdd53fd1"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/tool_schemas.py",
+      "source_sha256": "7d79f0288936f2b2714272bf405e2d5b5b70b75dcffd1792f073bff1ff3ea36e"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/tools.py",
+      "source_sha256": "265ccdd1a7ff2789836f75abbf7bff2f9ed00ae9092c4d8ed6111f78b3a31906"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/__init__.py",
+      "source_sha256": "83e8c23d427b0154800e21d0ffe79e0350fbb4ad1cca0db4243c37659cef2e65"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/assets.py",
+      "source_sha256": "fcbb96446912ba08df6d4c4a8b989627afd66c718ae885152adca85725ca9fcf"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/config.py",
+      "source_sha256": "437f82d2b03ab9747b5eba32ab7b513fc8fbba89f2f080ef6674e213e5a84a28"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/markdown.py",
+      "source_sha256": "d28e1c0332a94fe0f9d0fa9ec0fe1e44218e9926cb48b58ce1b64255d1dabb29"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/paper_context.py",
+      "source_sha256": "58e0706011f92617e9caf64b99eca8f947caeb42bee7f6f403ac5e4e1dc3fc7d"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/planning.py",
+      "source_sha256": "0a6ab47af89e955104bff8fd8688cf29935446b3f7e03a1665594f867c6091da"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/planning_config.py",
+      "source_sha256": "dfb22de5f35e627fc2a9821b0e04f7926bb030cf11a828f2a0238574bd728cdb"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/planning_observer.py",
+      "source_sha256": "9c7e4d3f5fe020636b9b8beb64f1c88c6193f6ecc39bc331be7c0decce91bf33"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/planning_quality.py",
+      "source_sha256": "d843626c2d4a8c0682d9b0ccfb974b3d94e2713d2ef4a4cb54778ec23a22a34d"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/planning_review.py",
+      "source_sha256": "09222c4344a516d2cb8be12583650803c9ea8dc8e08f31b59add0cf0420467d8"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/planning_review_workflow.py",
+      "source_sha256": "580173bcacf65aac4690bf331e6c28c476a000ef6005602bd5051675cac3a00f"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/planning_revision.py",
+      "source_sha256": "517667e471539e9ea102b139f6006b17a0f98a4601b484b3b764cebd088e10c8"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/planning_schemas.py",
+      "source_sha256": "db744398309cd403439fddb98511c4d4263e7b1dbc14bf6fbce5206005643c02"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/result_schemas.py",
+      "source_sha256": "48dfda8947e9d4cc68c0678d1dad613dba203d00aaf697020ad22520ab60b834"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/review_contracts.py",
+      "source_sha256": "888ce5d824ada541011834279509fc2e80988a5d4e55903cc3dacef92471a271"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/review_evidence.py",
+      "source_sha256": "0da39a5dbde3884c50b0752b232af9f3c765529a98ed5ae724c15a73dacd5476"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/runtime/html_to_pptx.mjs",
+      "source_sha256": "4fe968659ea887eeba0b75c9c4652fc0fbb838d552d55fbb169a17f28ce26717"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/runtime/render_html.mjs",
+      "source_sha256": "38343d3256c9f53706849d3a154c0e931709f225ad8ba3de34af533a51e538e1"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/runtime/render_pptx.ps1",
+      "source_sha256": "37c3831a77e94e2e03de1d293b15d1aad326accde4d8e2837385b0909b1c1fd3"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/service.py",
+      "source_sha256": "5e2b3ea627b3f6eb249764b76ce104fcde084d84a80556cac70a0771e4bb0f90"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/slide_review.py",
+      "source_sha256": "aa0bf06ac2034631a5a70e30acaefdd56c6a7620550d0e6feda796375d010c07"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/storage.py",
+      "source_sha256": "0da297ac4cccbeb7a7f0824ef56067807efd6234f9478d985cdf44660028991c"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/tool_schemas.py",
+      "source_sha256": "4f81524f76548174ea7953fce08c638f9e7c9e36524e644e92b131925f55ce4e"
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/tools.py",
+      "source_sha256": "0437a653f051fe2bb68f662d73cbaa25b10f679c04cad6201c0bd395d88c6e18"
+    },
+    {
+      "path": "apps/api/src/ppt_agent_api/__init__.py",
+      "source_sha256": "b4919235f11e0ae497aa6855fb6e378d6202f365f23a3b42374b81b7810fccfb"
+    },
+    {
+      "path": "apps/api/src/ppt_agent_api/routes/__init__.py",
+      "source_sha256": "3cbe4c12aa8dc0bb2409f7d450be995105581da50f4fecaa1f9bbb5fac79550d"
+    },
+    {
+      "path": "apps/api/src/ppt_agent_api/schemas/__init__.py",
+      "source_sha256": "ee364eba24238da37105a1567ba0e62d45f81dd1c3907d8a737938023bc135d4"
+    },
+    {
+      "path": "apps/api/src/ppt_agent_api/services/__init__.py",
+      "source_sha256": "f6602d1fc712d38bbe52ba83bed909f0935c41282a09eb68742cdfc648b95daa"
+    },
+    {
+      "path": "apps/api/src/ppt_agent_api/services/agent_runtime.py",
+      "source_sha256": "2f182a229d64d3e77df8b464541fc5f8fdfc1871695d1c32b4613a44a2c30e75"
+    },
+    {
+      "path": "apps/api/src/ppt_agent_api/services/planning_runtime.py",
+      "source_sha256": "16668a02d125d030bd8302849a3f2e73bc6eddf0c0cd0ca405f92e32110a647c"
+    },
+    {
+      "path": "apps/api/src/ppt_agent_api/services/review_runtime.py",
+      "source_sha256": "35937ee986999269be3c1b627a327af7cdac5b656cb421364a4323bca4a43d2b"
+    },
+    {
+      "path": "skills/paper-planning/SKILL.md",
+      "source_sha256": "d2d127dac2debd1ba8c492a2ccaa2c0b355e161af02668ca9c83ec78bed2ff01"
+    },
+    {
+      "path": "skills/pdf-asset-preparation/references/scenarios-and-recovery.md",
+      "source_sha256": "4267c3564a24bc693dcfac9b7eae7af6cfbc415fa060350de7395b53e79e4cd6"
+    },
+    {
+      "path": "skills/pdf-asset-preparation/references/tool-contracts.md",
+      "source_sha256": "dfed59af77cb38769a3b9278e8939afc99afde22c57eb37bf257bed34017b84a"
+    },
+    {
+      "path": "skills/pdf-asset-preparation/SKILL.md",
+      "source_sha256": "4363e0b75b7ae3a62b728597088094c4cda41ec8f85eaae2fc3f28ca6c036d18"
+    },
+    {
+      "path": "skills/ppt-production/references/html-export-contract.md",
+      "source_sha256": "20fafab5cf9556bb969936c58212ca94347e64da57f2c256375955a36c565d9e"
+    },
+    {
+      "path": "skills/ppt-production/references/pdf-asset-reading.md",
+      "source_sha256": "09c38ecefc7d217fdfd55dd66867d8eb75daf7779603ce529696d95c34d13d3f"
+    },
+    {
+      "path": "skills/ppt-production/SKILL.md",
+      "source_sha256": "9a43a0e6984a95f167a7076715786ba7d60d6752c21b242de20591651122eab4"
+    },
+    {
+      "path": "agent_harness/pyproject.toml",
+      "source_sha256": "5c3e05851662a7f84699e07fe95baad2ffdf22b37b1c87e113698b35c471c686"
+    },
+    {
+      "path": "agent_harness/README.md",
+      "source_sha256": "84aea5b1c6065d017094bfffc2be3743c957f330193558c8df3ee0d623a463fe"
+    },
+    {
+      "path": "packages/ppt_domain/pyproject.toml",
+      "source_sha256": "7d2c2bb0a10c04e958a81c08cf9553d3d4cd7bc2c257725cc5cf8f623f3fca66"
+    },
+    {
+      "path": "packages/ppt_domain/README.md",
+      "source_sha256": "f5d0afb2556cf583891750488357043698304c612ac660354244c4502953a387"
+    },
+    {
+      "path": "AGENTS.md",
+      "source_sha256": "e47ffad98faf126aa41ed0ac106bf847a9aa601b188294c80d2ab21c19e7a4ae"
+    },
+    {
+      "path": "agent_harness/tests/test_context_compaction.py",
+      "source_sha256": "76fc9857baa451f3803d5c1abf3a1ae76c82ae3a7e50c3fcc81caf9c81a725e0"
+    },
+    {
+      "path": "agent_harness/tests/test_malformed_tool_arguments.py",
+      "source_sha256": "eed8bb3a21876da5003de177a7d24157a79c09d3969099848be7c22fda157a50"
+    },
+    {
+      "path": "agent_harness/tests/test_multimodal_messages.py",
+      "source_sha256": "911ede0d110a5f17626dcad3734ad80ddc8305ff61d13446e5118e9f336b3d68"
+    },
+    {
+      "path": "agent_harness/tests/test_session_compaction_recovery.py",
+      "source_sha256": "38cc8475e8894ee7a0b181ec35068bad174d345430ad8021e0abe37b9ec8a24b"
+    },
+    {
+      "path": "agent_harness/tests/test_skills.py",
+      "source_sha256": "59e4daade9040d2c607682ad4889a5dbf30db8bb294a6993290bf7822036c856"
+    },
+    {
+      "path": "agent_harness/tests/test_smoke.py",
+      "source_sha256": "3311efd3289df7996571e4cb340c45488e957f360d8b874051b5365a1c137e86"
+    },
+    {
+      "path": "agent_harness/tests/test_tool_outputs.py",
+      "source_sha256": "485b44363afd2797900d1f8c36a19ef32dbda7f826de9573d2bb55fa530de53b"
+    },
+    {
+      "path": "agent_harness/tests/test_usage_metering.py",
+      "source_sha256": "3682c93b2b53e9f5e8ae3c8176f76fdb59fe32f65be5520757912e04f89ccab5"
+    },
+    {
+      "path": "packages/ppt_domain/tests/test_page_closeout_recovery.py",
+      "source_sha256": "f10500efbc58d21aa17f332dfabba7ddcac1c990244fd957c79d0c2bb1c00b25"
+    },
+    {
+      "path": "packages/ppt_domain/tests/test_production_recovery_boundary.py",
+      "source_sha256": "e49d01b9c5d1920800879951f91824149142a6819c16ebf82d32f37d6cd950e3"
+    },
+    {
+      "path": "packages/ppt_domain/tests/test_review_source_supplement.py",
+      "source_sha256": "e7101154d5445fba88fa180d53ba29faa5d957372559d9e4c33f1faa7c93e9e0"
+    },
+    {
+      "path": "packages/ppt_domain/tests/test_scoped_task_state.py",
+      "source_sha256": "57a434aa7fc04aeb588507177a1c6192c549079118fbf47d76311dcb263af659"
+    },
+    {
+      "path": "packages/ppt_domain/tests/test_review_workflow.py",
+      "source_sha256": "33f69d8da27827a8fc3eaf9f37c71fcb2f1a98ae6bff57f316b81ca480476e10"
+    },
+    {
+      "path": "packages/ppt_domain/tests/test_delivery_regression.py",
+      "source_sha256": "a86e0155bf96a9f8373e95039376fa238e738b5e8e407ce1114130c5852a6b3e"
+    },
+    {
+      "path": "packages/ppt_domain/tests/test_paper_context.py",
+      "source_sha256": "ff3d70cb2bbb8c6ec80ee32c1baa7baea7e5978c639ad3ceefe6258a4bfa8dd8"
+    },
+    {
+      "path": "packages/ppt_domain/tests/test_observer_recovery.py",
+      "source_sha256": "c3469a5e8fc035e240d677a8f9776cdce325842bff893d449090d1ae164f96c4"
+    },
+    {
+      "path": "packages/ppt_domain/tests/test_slide_review_dimensions.py",
+      "source_sha256": "4fb8cdd5a1096b072f98e225c8aecc034e50ec5256278574eb18d9dc79437230"
+    },
+    {
+      "path": "apps/api/tests/test_agent_runtime.py",
+      "source_sha256": "39508804ebdf0ada997e816bd5967e60ab8f4a574c28e1096adda52cc321c224"
+    }
+  ]
+}

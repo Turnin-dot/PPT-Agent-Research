@@ -1,0 +1,32 @@
+[
+  {
+    "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/config.py",
+    "source_sha256": "bb14dd724436c24c47c52ee492b5222d3fa2ac6fc20aec84d924631e9c63104e",
+    "release_sha256": "bf59df05091d802bd157e770df49a5e13b635af0fc73a0293b3c3f2dfd57d86d"
+  },
+  {
+    "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/config.py",
+    "source_sha256": "437f82d2b03ab9747b5eba32ab7b513fc8fbba89f2f080ef6674e213e5a84a28",
+    "release_sha256": "20551240c5811e42e0dd4641d895534285ea114278814bee7c7d9baa5ca78011"
+  },
+  {
+    "path": "agent_harness/README.md",
+    "source_sha256": "84aea5b1c6065d017094bfffc2be3743c957f330193558c8df3ee0d623a463fe",
+    "release_sha256": "5df03563a5b5dc5081aac471e89a8586b089980f29642a6fe130cef7f791810b"
+  },
+  {
+    "path": "packages/ppt_domain/pyproject.toml",
+    "source_sha256": "7d2c2bb0a10c04e958a81c08cf9553d3d4cd7bc2c257725cc5cf8f623f3fca66",
+    "release_sha256": "89e506316d4514e3c80f052c1d03ec8b8e520ecec142f68209352c5ab28eab0a"
+  },
+  {
+    "path": "packages/ppt_domain/README.md",
+    "source_sha256": "f5d0afb2556cf583891750488357043698304c612ac660354244c4502953a387",
+    "release_sha256": "30f25ada3c7bdb30be5b597a40fb1a23c8d2441f7c13b8e9d85ac542e3e8a149"
+  },
+  {
+    "path": "packages/ppt_domain/tests/test_slide_review_dimensions.py",
+    "source_sha256": "4fb8cdd5a1096b072f98e225c8aecc034e50ec5256278574eb18d9dc79437230",
+    "release_sha256": "10d40a15679554cc6eeffe1d0c36565b1155dbc93c05a47be8e74903d0a8380c"
+  }
+]

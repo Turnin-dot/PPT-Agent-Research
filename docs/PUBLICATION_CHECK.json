@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-13",
+  "scope": "Release closeout only; no paid model calls",
+  "security_scan": "PASS_WITH_LIMITATIONS",
+  "publication_verdict": "NEEDS_REVIEW",
+  "publication_blocker": null,
+  "material_scope": "Owned synthetic SignalFusion demo only; historical paper covers/screenshots remain local and excluded.",
+  "scan": {
+    "guard_findings": [],
+    "unresolved_privacy_candidates": 0,
+    "reviewed_generic_path_candidates": 4,
+    "methods": [
+      "allowlisted candidate scan",
+      "PDF text and object metadata scan",
+      "PPTX XML/relationship metadata scan",
+      "image metadata scan",
+      "public screenshot and synthetic source inspection",
+      "Git visibility and ignore probes",
+      "file hash comparison"
+    ],
+    "limits": [
+      "Pattern scanning cannot exclude unknown/encoded credentials",
+      "No image OCR/steganography or binary decompilation audit",
+      "No fresh network dependency audit; prior npm high affected-package entries remain recorded",
+      "Actual future staging and any imported history need a fresh review"
+    ]
+  },
+  "git": {
+    "repository_initialized": true,
+    "root_index_or_staging": "Explicit allowlist only; staged blobs verified against manifest before commit",
+    "root_history": "First local release commit; no imported history",
+    "private_probe_cases": 11,
+    "private_probe_failures": [],
+    "project_git_initialized_by_task": true,
+    "commit_or_push": "Local commit requested; push requested to user-specified public repository",
+    "visible_files": 152,
+    "extra_visible_files": [],
+    "missing_visible_files": []
+  },
+  "integrity": {
+    "protected_source_mismatches": [],
+    "raw_run_mismatches": [],
+    "protected_files": 102,
+    "raw_files": 84
+  },
+  "regressions": {
+    "pytest": {
+      "tests": "122",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "6.296"
+    },
+    "pip_check": "passed",
+    "fake_model_offline": {
+      "render_ok": true,
+      "rendered_preview_count": 2,
+      "session_restored": true,
+      "observed_tool_errors": 2,
+      "real_model_calls": 0,
+      "pptx_delivered": false
+    },
+    "showcase": {
+      "failures": [],
+      "missing": [],
+      "overflow": false,
+      "mobileOverflow": false,
+      "remote": [],
+      "requests": 2
+    },
+    "formal_preflight": "passed; no model calls",
+    "environment": "passed; local modules and browser available"
+  },
+  "paid_model_calls_this_closeout": 0,
+  "source_or_skill_or_model_config_changes": [],
+  "large_candidate_files": [],
+  "cached_runtime_files": "Retained locally and excluded; no dependency, pip process, raw output or unknown-purpose file deleted.",
+  "prior_dependency_findings": "Previously recorded npm high affected entries: image-size and pptxgenjs; not re-audited or upgraded in this closeout.",
+  "demo_status": "HTML reviewed and editable PPTX exported; final PowerPoint rendering incomplete",
+  "candidate_files_including_manifest": 152,
+  "largest_candidate_bytes": 1054364,
+  "license_policy": "No license selected; no root LICENSE and no new open-source permission granted.",
+  "requires_review": [
+    "Existing copied-source distribution rights and third-party obligations remain applicable",
+    "Prior dependency vulnerability findings remain unresolved"
+  ],
+  "license_update_verification": "18 publication regressions passed; guard clean; generated root LICENSE removed; existing Harness declaration retained",
+  "latest_privacy_review": "PRIVACY_REVIEW.md; commit/push details retained in ignored local precommit record"
+}

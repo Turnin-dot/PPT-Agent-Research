@@ -1,0 +1,82 @@
+# Python bytecode, testing/build metadata
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+
+# pip installation leftovers (not runtime dependencies)
+pip-unpack-*/
+pip-build-*/
+pip-build-env-*/
+pip-build-tracker-*/
+pip-install-*/
+pip-metadata-*/
+pip-modern-metadata-*/
+pip-ephem-wheel-cache-*/
+pytest-of-*/
+
+# Environment/credentials; keep only the blank template
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_ed25519
+.npmrc
+.pypirc
+
+# Node and local browser/cache installations
+node_modules/
+.cache/
+.playwright/
+ms-playwright/
+
+# Local sessions, private diagnostics and runtime outputs
+outputs/
+artifacts/
+.build/
+.ppt-agent/
+.tool-results/
+workspace/
+workspaces/
+sessions/
+tmp/
+temp/
+*.log
+
+# Reports: only explicitly reviewed public summaries
+/reports/*
+!/reports/verification.md
+!/reports/verification.json
+
+# OS / editor state
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Historical exhibits retained locally, replaced by owned synthetic snapshot
+/showcase/assets/historical-*
+/showcase/data/history.json
+/showcase/data/plan-excerpt.json
+/showcase/data/review-versions.json

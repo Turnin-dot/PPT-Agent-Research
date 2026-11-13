@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "ppt-agent-research"
+version = "0.1.0"
+description = "Academic presentation generation research prototype with a model-driven Harness"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["ppt-agent-harness", "ppt-agent-domain", "ppt-agent-application", "python-dotenv>=1.0", "openai>=1.50"]
+[project.optional-dependencies]
+dev = ["pytest>=8", "build>=1.2"]
+[tool.setuptools.packages.find]
+include = ["demos*"]
+[tool.pytest.ini_options]
+testpaths = ["agent_harness/tests", "packages/ppt_domain/tests", "apps/api/tests", "tests"]
+addopts = "-ra"
+pythonpath = ["agent_harness/src", "packages/ppt_domain/src", "apps/api/src"]

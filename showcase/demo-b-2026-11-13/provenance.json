@@ -1,0 +1,47 @@
+{
+  "schema_version": "public-artifact-provenance/v1",
+  "run_label": "my-demo-b-03",
+  "files": [
+    {
+      "path": "source.pdf",
+      "source_relative_to_private_run": "input/source.pdf",
+      "sha256": "2d18aef292ab63b1b20f2f28f8765ac09b95892c946fa62c3047975fc3f874c8",
+      "bytes": 1054364,
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "final.pptx",
+      "source_relative_to_private_run": "tasks/sample/exports/sample-slide01.pptx",
+      "sha256": "dd105a7e8c965570cae650b9302304936d24070b041d4f41fd6d9ae3217778e2",
+      "bytes": 137144,
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "preview.png",
+      "source_relative_to_private_run": "tasks/sample/slides/slide-01/renders/html-v3/preview.png",
+      "sha256": "4d1904eed7fb167b77f9701ff635e10390053a395a151e37126a2665a3a367e3",
+      "bytes": 240126,
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "slide.html",
+      "source_relative_to_private_run": "tasks/sample/slides/slide-01/html/v3/slide.html",
+      "sha256": "2f0f857e3a922d0580b49a2b781211248826ae88bc68ac184d1941dbc2ccff8a",
+      "bytes": 8763,
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "resources/3f24ab8b07-177cd738f9a4ef3fd39274955df364be4edde9783c6a4e9b86a670ac0dfcd5a5.jpg",
+      "source_relative_to_private_run": "tasks/sample/slides/slide-01/html/v3/resources/3f24ab8b07-177cd738f9a4ef3fd39274955df364be4edde9783c6a4e9b86a670ac0dfcd5a5.jpg",
+      "sha256": "3f24ab8b07e44d19501d63c376c3c8f7d9e2d23d0843905aa4b71abe4cd90fd6",
+      "bytes": 49376,
+      "byte_identical_to_source": true
+    }
+  ],
+  "original_event_log_sha256": "92b401ea54a0d56c54fb0e1e6310e66f159682ab192d7b76b40736bcb73c2d76",
+  "original_summary_sha256": "cc08486d48657b196a560af6b7396b0cabb3c25f59557f7eedc29b1d472b4187",
+  "raw_evidence_retained_locally": true,
+  "html_content_modified": false,
+  "review_states_modified": false,
+  "note": "Private source labels are relative. Exhibit only, not a relocatable formal task/session restore package."
+}

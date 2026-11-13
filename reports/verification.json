@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-13",
+  "scope": "independent release candidate, no paid API",
+  "tests": {
+    "tests": "89",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0",
+    "time": "5.972"
+  },
+  "original_copied_files_hash_verified": 95,
+  "original_hash_changes": [],
+  "copied_files_modified": 6,
+  "harness_source_modified": false,
+  "skills_modified": false,
+  "demo_c": {
+    "render_ok": true,
+    "rendered_preview_count": 2,
+    "session_restored": true,
+    "observed_tool_errors": 2,
+    "status": "mechanism_demonstrated_not_quality_approved",
+    "pptx_delivered": false,
+    "real_model_calls": 0,
+    "api_cost": 0
+  },
+  "demo_c_wall_seconds": 2.721907699999065,
+  "demo_b": "no-network preflight passed; no real-model run performed",
+  "static_browser": {
+    "failures": [],
+    "missing": [],
+    "overflow": false,
+    "mobileOverflow": false,
+    "remote": [],
+    "requests": 3
+  },
+  "runtime": {
+    "python": "3.12.12",
+    "node": "24.19.0",
+    "playwright": "1.62.1",
+    "pptxgenjs": "4.0.1"
+  },
+  "dependency_audit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 2,
+    "critical": 0,
+    "total": 2
+  },
+  "license": "pending",
+  "limitations": [
+    "No real model/API validation",
+    "No new formal PPTX delivered",
+    "No new PowerPoint COM render",
+    "Full PDF parsing not rerun",
+    "Linux CI not executed",
+    "Two high severity Node advisories remain"
+  ],
+  "clean_environment": "New venv with include-system-site-packages=false; constrained install from scratch; pip check passed",
+  "isolation_probe": "Python -I with audit hook denying all opens under original project passed; system Node and release-local node_modules used"
+}

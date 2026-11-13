@@ -1,0 +1,13 @@
+{
+  "name": "ppt-agent-research-runtime",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local Chromium rendering and editable PPTX conversion",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "playwright": "1.62.1",
+    "pptxgenjs": "4.0.1"
+  }
+}

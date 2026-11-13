@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>SignalFusion 合成示例 · slide-01</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1600px; height: 900px; overflow: hidden; background: #F6F4EF; }
+  body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; color: #17324D; }
+  .stage { position: relative; width: 1600px; height: 900px; background: #F6F4EF; }
+  .abs { position: absolute; }
+  .t-title { font-size: 40px; font-weight: 700; line-height: 1.4; letter-spacing: 0.5px; }
+  .t-sub { font-size: 22px; line-height: 1.5; color: #68747F; }
+  .t-head { font-size: 24px; font-weight: 700; line-height: 1.5; color: #17324D; }
+  .t-cap { font-size: 20px; line-height: 1.5; color: #68747F; }
+  .t-note { font-size: 23px; line-height: 1.6; color: #17324D; }
+  .t-quote { font-size: 21px; line-height: 1.5; color: #17324D; }
+  .t-tag { font-size: 22px; font-weight: 700; line-height: 1.5; color: #17324D; }
+  .t-value { font-size: 46px; font-weight: 700; line-height: 1.25; color: #17324D; }
+  .t-unit { font-size: 19px; line-height: 1.5; color: #C75B39; font-weight: 700; }
+  .t-metric-note { font-size: 19px; line-height: 1.5; color: #68747F; }
+  .t-badge { font-size: 20px; font-weight: 700; color: #F6F4EF; letter-spacing: 1px; line-height: 1.4; }
+  .t-disc1 { font-size: 25px; font-weight: 700; line-height: 1.5; color: #17324D; }
+  .t-disc2 { font-size: 20px; line-height: 1.5; color: #4A5560; }
+  .t-foot { font-size: 19px; line-height: 1.5; color: #68747F; }
+  .card { background: #FFFFFF; border: 2px solid #D8D2C6; }
+  .badge { background: #C75B39; }
+  .disc { background: #EFE3DB; border: 2px solid #D9B7A6; }
+  .accent-bar { background: #C75B39; }
+  .rule { background: #D8D2C6; }
+</style>
+</head>
+<body>
+<div class="stage">
+
+  <!-- 顶部标题区 -->
+  <div id="el-title" class="abs t-title" data-pptx="text" style="left:48px; top:40px; width:1090px; height:56px;">
+    SignalFusion：自制合成示例的结构与内置合成数字
+  </div>
+  <div id="el-subtitle" class="abs t-sub" data-pptx="text" style="left:48px; top:104px; width:1090px; height:33px;">
+    单页合成样例 PDF（source.pdf 第 1 页）· 结构图与全部数值都只是软件自测数据
+  </div>
+  <div id="el-badge-shape" class="abs badge" data-pptx="shape" data-shape="rect" style="left:1184px; top:44px; width:368px; height:78px;"></div>
+  <div id="el-badge-text" class="abs t-badge" data-pptx="text" style="left:1196px; top:54px; width:344px; height:60px; text-align:center;">
+    SYNTHETIC FIXTURE<br>合成样例 · 非真实论文
+  </div>
+
+  <!-- 左列：结构证据 -->
+  <div id="el-head-structure" class="abs t-head" data-pptx="text" style="left:48px; top:152px; width:884px; height:36px;">
+    ① 结构证据：原文档内嵌架构图
+  </div>
+  <div id="el-arch-frame" class="abs card" data-pptx="shape" data-shape="rect" style="left:48px; top:192px; width:884px; height:317px;"></div>
+  <img id="el-arch-image" class="abs" data-pptx="image" src="resources/3f24ab8b07-177cd738f9a4ef3fd39274955df364be4edde9783c6a4e9b86a670ac0dfcd5a5.jpg"
+       alt="SignalFusion 合成架构图" style="left:50px; top:194px; width:880px; height:313px; object-fit:contain;">
+  <div id="el-arch-caption" class="abs t-cap" data-pptx="text" style="left:48px; top:518px; width:884px; height:60px;">
+    图 1　原文档架构图（image-p0001-001）：两支 encoder 汇入 Concatenate，再接 Predict scalar；连线未画箭头，方向按左→右排版推断。
+  </div>
+  <div id="el-structure-notes" class="abs t-note" data-pptx="text" style="left:48px; top:586px; width:884px; height:110px;">
+    · temporal 与 spectral 两个分支分别编码特征<br>
+    · 两支特征在 Concatenate 处拼接<br>
+    · 拼接结果输出一个标量（predict a scalar）
+  </div>
+
+  <!-- 右列：合成数字 -->
+  <div id="el-head-numbers" class="abs t-head" data-pptx="text" style="left:972px; top:152px; width:580px; height:36px;">
+    ② 样例内置的合成演示数字
+  </div>
+
+  <div id="el-num1-card" class="abs card" data-pptx="shape" data-shape="rect" style="left:972px; top:192px; width:580px; height:106px;"></div>
+  <div id="el-num1-bar" class="abs accent-bar" data-pptx="shape" data-shape="rect" style="left:972px; top:192px; width:7px; height:106px;"></div>
+  <div id="el-num1-tag" class="abs t-tag" data-pptx="text" style="left:996px; top:202px; width:300px; height:33px;">baseline MAE</div>
+  <div id="el-num1-value" class="abs t-value" data-pptx="text" style="left:1288px; top:198px; width:100px; height:58px; text-align:right;">5.0</div>
+  <div id="el-num1-unit" class="abs t-unit" data-pptx="text" style="left:1398px; top:207px; width:140px; height:29px;">合成演示值</div>
+  <div id="el-num1-note" class="abs t-metric-note" data-pptx="text" style="left:996px; top:262px; width:540px; height:29px;">非真实测量，来自原文 synthetic demonstration scores</div>
+
+  <div id="el-num2-card" class="abs card" data-pptx="shape" data-shape="rect" style="left:972px; top:312px; width:580px; height:106px;"></div>
+  <div id="el-num2-bar" class="abs accent-bar" data-pptx="shape" data-shape="rect" style="left:972px; top:312px; width:7px; height:106px;"></div>
+  <div id="el-num2-tag" class="abs t-tag" data-pptx="text" style="left:996px; top:322px; width:280px; height:33px;">fusion MAE</div>
+  <div id="el-num2-value" class="abs t-value" data-pptx="text" style="left:1288px; top:318px; width:100px; height:58px; text-align:right;">4.0</div>
+  <div id="el-num2-unit" class="abs t-unit" data-pptx="text" style="left:1398px; top:327px; width:140px; height:29px;">合成演示值</div>
+  <div id="el-num2-note" class="abs t-metric-note" data-pptx="text" style="left:996px; top:382px; width:540px; height:29px;">与 baseline 之差不可当作真实改进幅度</div>
+
+  <div id="el-num3-card" class="abs card" data-pptx="shape" data-shape="rect" style="left:972px; top:432px; width:580px; height:106px;"></div>
+  <div id="el-num3-bar" class="abs accent-bar" data-pptx="shape" data-shape="rect" style="left:972px; top:432px; width:7px; height:106px;"></div>
+  <div id="el-num3-tag" class="abs t-tag" data-pptx="text" style="left:996px; top:442px; width:280px; height:33px;">样本量</div>
+  <div id="el-num3-value" class="abs t-value" data-pptx="text" style="left:1288px; top:438px; width:100px; height:58px; text-align:right;">100</div>
+  <div id="el-num3-unit" class="abs t-unit" data-pptx="text" style="left:1392px; top:447px; width:150px; height:29px;">虚构样本</div>
+  <div id="el-num3-note" class="abs t-metric-note" data-pptx="text" style="left:996px; top:502px; width:540px; height:29px;">原文写作 “100 fictional samples”</div>
+
+  <div id="el-rule" class="abs rule" data-pptx="shape" data-shape="line" style="left:972px; top:556px; width:580px; height:2px;"></div>
+  <div id="el-evidence-quote" class="abs t-quote" data-pptx="text" style="left:972px; top:568px; width:580px; height:64px;">
+    原文同句给出：“Synthetic demonstration scores: baseline MAE 5.0 and fusion MAE 4.0 on 100 fictional samples.”
+  </div>
+  <div id="el-caution" class="abs t-cap" data-pptx="text" style="left:972px; top:640px; width:580px; height:60px;">
+    原文未给任务定义、指标口径、训练配置或误差条，故不作显著性、可复现性或优劣结论。
+  </div>
+
+  <!-- 底部声明条 -->
+  <div id="el-disc-card" class="abs disc" data-pptx="shape" data-shape="rect" style="left:48px; top:714px; width:1504px; height:130px;"></div>
+  <div id="el-disc-bar" class="abs accent-bar" data-pptx="shape" data-shape="rect" style="left:48px; top:714px; width:9px; height:130px;"></div>
+  <div id="el-disc-1" class="abs t-disc1" data-pptx="text" style="left:80px; top:724px; width:1440px; height:38px;">
+    本页所有数字均为该合成样例中发明出来的软件自测数据（invented software-test data），不是实验结果。
+  </div>
+  <div id="el-disc-2" class="abs t-disc2" data-pptx="text" style="left:80px; top:768px; width:1440px; height:60px;">
+    原文约束：“These are invented software-test data and must never be presented as paper results.” —— 不得包装为论文成果、性能对比或可用于决策的证据；文档标题本身即为 “SELF-AUTHORED SYNTHETIC FIXTURE”。
+  </div>
+
+  <div id="el-footer" class="abs t-foot" data-pptx="text" style="left:48px; top:856px; width:1504px; height:29px;">
+    来源：source.pdf 第 1 页（sha256 2d18aef2…f874c8）· 资产清单 revision 1，视觉核对 complete / pass · 本页用途：流程自测
+  </div>
+
+</div>
+</body>
+</html>

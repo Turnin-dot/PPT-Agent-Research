@@ -1,0 +1,771 @@
+{
+  "status": "local candidate; no license selected, NOT published",
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "a25ac90a04254b0688696f0256d5bda66589b8d16d7a06035ceaa3bcf834f129",
+      "bytes": 692
+    },
+    {
+      "path": ".github/workflows/offline.yml",
+      "sha256": "3c647760ee5e93062214961efa94a9f67e6b08e5b545db06c0d13b255658b1c0",
+      "bytes": 728
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "8a44de4ba7254f655c6b555795f8ec025bc47658bc79cc0d39b68ea95374d6f5",
+      "bytes": 1310
+    },
+    {
+      "path": "agent_harness/pyproject.toml",
+      "sha256": "5c3e05851662a7f84699e07fe95baad2ffdf22b37b1c87e113698b35c471c686",
+      "bytes": 931
+    },
+    {
+      "path": "agent_harness/README.md",
+      "sha256": "5df03563a5b5dc5081aac471e89a8586b089980f29642a6fe130cef7f791810b",
+      "bytes": 263
+    },
+    {
+      "path": "agent_harness/src/agent_harness/__init__.py",
+      "sha256": "a4c056ef8323569b798cea39f76e89cd05a798713441c62586f9197cd0299a9c",
+      "bytes": 345
+    },
+    {
+      "path": "agent_harness/src/agent_harness/core/__init__.py",
+      "sha256": "991c8d931da737190927786ad2603c1bd84fffd7a9ec8655b68833e6a2aaf2bf",
+      "bytes": 1227
+    },
+    {
+      "path": "agent_harness/src/agent_harness/core/context.py",
+      "sha256": "e63d6f40ff9247c2f313eb34ed3d41ff25266d6e30153a12862a83730526bbb9",
+      "bytes": 12882
+    },
+    {
+      "path": "agent_harness/src/agent_harness/core/events.py",
+      "sha256": "bce2a4177447d78e6eae9a475456cda7291fecb500398b90408233715e9187b0",
+      "bytes": 2143
+    },
+    {
+      "path": "agent_harness/src/agent_harness/core/loop.py",
+      "sha256": "6576fa631a4f89b616ecccebf8fb1adcfb8f47fc11575fdd4114f3813b67e873",
+      "bytes": 8439
+    },
+    {
+      "path": "agent_harness/src/agent_harness/core/messages.py",
+      "sha256": "3c670bd4645d188d2e390c859ec7c5092c14dc98b977b15e792bbf6f3597dfff",
+      "bytes": 7548
+    },
+    {
+      "path": "agent_harness/src/agent_harness/core/metering.py",
+      "sha256": "6344f109f5b32c5977ddf3ccbe97c47ac50ae4a12b910a61c63e71755af34364",
+      "bytes": 2624
+    },
+    {
+      "path": "agent_harness/src/agent_harness/core/models.py",
+      "sha256": "e8dda4d1dccde23cd1a98be9778ba2e4b7309b7421c1f0b435aa8b3f0ae97200",
+      "bytes": 17795
+    },
+    {
+      "path": "agent_harness/src/agent_harness/core/toolkit.py",
+      "sha256": "0899a4abded4495a1ec0cebce05e73385766937b05d9d4e655d184aec2a11478",
+      "bytes": 8863
+    },
+    {
+      "path": "agent_harness/src/agent_harness/core/tools.py",
+      "sha256": "5f461a371d7790b089506d3d775ab5e82a1e912643e06298cdd3f0dca3038ebd",
+      "bytes": 19436
+    },
+    {
+      "path": "agent_harness/src/agent_harness/py.typed",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "path": "agent_harness/src/agent_harness/runtime/__init__.py",
+      "sha256": "0fce887f5340f787b84f6abf02d7dea0725ca81254302c0d4b1e324da5ed21e8",
+      "bytes": 1222
+    },
+    {
+      "path": "agent_harness/src/agent_harness/runtime/harness.py",
+      "sha256": "547c589349f4f7147c7d88c0e452b7489b5cb3e887b8db0064ba54f4ea62be0f",
+      "bytes": 6398
+    },
+    {
+      "path": "agent_harness/src/agent_harness/runtime/hooks.py",
+      "sha256": "2e4b0f5a916802c13554864132784ba7ec53c556f965e88a7f2b5e613a7f3e84",
+      "bytes": 4417
+    },
+    {
+      "path": "agent_harness/src/agent_harness/runtime/mcp.py",
+      "sha256": "cbc2c5d0d138f0fd57cebbe52f057b08d3a9d21c07740655210b26277953317a",
+      "bytes": 4973
+    },
+    {
+      "path": "agent_harness/src/agent_harness/runtime/permissions.py",
+      "sha256": "9cb6372da56df7f32f031aea39b87a80e7180810e55c5f760f953a6d5604a8f0",
+      "bytes": 8150
+    },
+    {
+      "path": "agent_harness/src/agent_harness/runtime/session.py",
+      "sha256": "65cd8ea8fb01ae220e615b835dde992b44ed5266a48ae486e17f899190e5b121",
+      "bytes": 6591
+    },
+    {
+      "path": "agent_harness/src/agent_harness/runtime/skills.py",
+      "sha256": "2d151fde136143bb26aec90b2526664397413102f51ce99cd9fa145b271b51bf",
+      "bytes": 4830
+    },
+    {
+      "path": "agent_harness/src/agent_harness/runtime/subagents.py",
+      "sha256": "3a5a91f951999ff616238bb3dd5017a30ba353a189347fbf4ae9f99897674ae4",
+      "bytes": 4431
+    },
+    {
+      "path": "agent_harness/tests/test_context_compaction.py",
+      "sha256": "76fc9857baa451f3803d5c1abf3a1ae76c82ae3a7e50c3fcc81caf9c81a725e0",
+      "bytes": 1846
+    },
+    {
+      "path": "agent_harness/tests/test_malformed_tool_arguments.py",
+      "sha256": "eed8bb3a21876da5003de177a7d24157a79c09d3969099848be7c22fda157a50",
+      "bytes": 2570
+    },
+    {
+      "path": "agent_harness/tests/test_multimodal_messages.py",
+      "sha256": "911ede0d110a5f17626dcad3734ad80ddc8305ff61d13446e5118e9f336b3d68",
+      "bytes": 1120
+    },
+    {
+      "path": "agent_harness/tests/test_session_compaction_recovery.py",
+      "sha256": "38cc8475e8894ee7a0b181ec35068bad174d345430ad8021e0abe37b9ec8a24b",
+      "bytes": 4172
+    },
+    {
+      "path": "agent_harness/tests/test_skills.py",
+      "sha256": "59e4daade9040d2c607682ad4889a5dbf30db8bb294a6993290bf7822036c856",
+      "bytes": 1366
+    },
+    {
+      "path": "agent_harness/tests/test_smoke.py",
+      "sha256": "3311efd3289df7996571e4cb340c45488e957f360d8b874051b5365a1c137e86",
+      "bytes": 4425
+    },
+    {
+      "path": "agent_harness/tests/test_tool_outputs.py",
+      "sha256": "485b44363afd2797900d1f8c36a19ef32dbda7f826de9573d2bb55fa530de53b",
+      "bytes": 7332
+    },
+    {
+      "path": "agent_harness/tests/test_usage_metering.py",
+      "sha256": "3682c93b2b53e9f5e8ae3c8176f76fdb59fe32f65be5520757912e04f89ccab5",
+      "bytes": 4746
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "e47ffad98faf126aa41ed0ac106bf847a9aa601b188294c80d2ab21c19e7a4ae",
+      "bytes": 561
+    },
+    {
+      "path": "apps/api/pyproject.toml",
+      "sha256": "0cb5ed9199461a4618791e09f8f625d921be60db9a4830594e387f981c63b40d",
+      "bytes": 355
+    },
+    {
+      "path": "apps/api/src/ppt_agent_api/__init__.py",
+      "sha256": "b4919235f11e0ae497aa6855fb6e378d6202f365f23a3b42374b81b7810fccfb",
+      "bytes": 50
+    },
+    {
+      "path": "apps/api/src/ppt_agent_api/routes/__init__.py",
+      "sha256": "3cbe4c12aa8dc0bb2409f7d450be995105581da50f4fecaa1f9bbb5fac79550d",
+      "bytes": 45
+    },
+    {
+      "path": "apps/api/src/ppt_agent_api/schemas/__init__.py",
+      "sha256": "ee364eba24238da37105a1567ba0e62d45f81dd1c3907d8a737938023bc135d4",
+      "bytes": 64
+    },
+    {
+      "path": "apps/api/src/ppt_agent_api/services/__init__.py",
+      "sha256": "f6602d1fc712d38bbe52ba83bed909f0935c41282a09eb68742cdfc648b95daa",
+      "bytes": 356
+    },
+    {
+      "path": "apps/api/src/ppt_agent_api/services/agent_runtime.py",
+      "sha256": "2f182a229d64d3e77df8b464541fc5f8fdfc1871695d1c32b4613a44a2c30e75",
+      "bytes": 12525
+    },
+    {
+      "path": "apps/api/src/ppt_agent_api/services/planning_runtime.py",
+      "sha256": "16668a02d125d030bd8302849a3f2e73bc6eddf0c0cd0ca405f92e32110a647c",
+      "bytes": 5285
+    },
+    {
+      "path": "apps/api/src/ppt_agent_api/services/review_runtime.py",
+      "sha256": "35937ee986999269be3c1b627a327af7cdac5b656cb421364a4323bca4a43d2b",
+      "bytes": 5474
+    },
+    {
+      "path": "apps/api/tests/test_agent_runtime.py",
+      "sha256": "39508804ebdf0ada997e816bd5967e60ab8f4a574c28e1096adda52cc321c224",
+      "bytes": 3659
+    },
+    {
+      "path": "constraints-tested.txt",
+      "sha256": "1052ce660bd67c761a95f74b4438cc9bc0633e1df7bd7eba7e5a8c1e3672bc6d",
+      "bytes": 123
+    },
+    {
+      "path": "demos/__init__.py",
+      "sha256": "7b84b4bbfd49a28f426716b00f852038afe444325faa47fd0c319394676dad8f",
+      "bytes": 83
+    },
+    {
+      "path": "demos/common.py",
+      "sha256": "e027b2f822c762c17f731b5f05a809183c5d85f3a3e90bbe511845df6107d138",
+      "bytes": 2566
+    },
+    {
+      "path": "demos/environment.py",
+      "sha256": "b3a62a089b9fee28d66a6672b4c164948eb62ee5899665ffcf0d4df342c6b0f6",
+      "bytes": 1810
+    },
+    {
+      "path": "demos/offline.py",
+      "sha256": "8a7b57e297eccd953824566839c95faa1c9338af01c621ef3fd3c065e03be31f",
+      "bytes": 4451
+    },
+    {
+      "path": "demos/raw_input.py",
+      "sha256": "03714e82d0f957b74ac31e122e705eaf0d912007d476f7227c9e2228298fda45",
+      "bytes": 2948
+    },
+    {
+      "path": "demos/sample_data.py",
+      "sha256": "62f2e3a34e3c760bced9a03f094ab473591b299de5f49995b7adfbc3eadcd0d9",
+      "bytes": 5439
+    },
+    {
+      "path": "demos/single_page.py",
+      "sha256": "79452bfc36bd9b8442b3c5f862d56351ac74ca29931fbe15bda7bdf3156253b9",
+      "bytes": 6144
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "c1a9e991c7e20b826b60f1fc3487fc28d0f492fde70133afd2c03de0b91392ae",
+      "bytes": 2979
+    },
+    {
+      "path": "docs/changed_files.json",
+      "sha256": "acdc9c05c888c7b1d73561e8e7560e54ad143b4af12149692dcbda4495e60543",
+      "bytes": 1518
+    },
+    {
+      "path": "docs/DEMO_B_TEST_STATUS.md",
+      "sha256": "086e69ac2e7131bd3ce6c1bf38a20711fc729bd83f235622ab047779434670eb",
+      "bytes": 2102
+    },
+    {
+      "path": "docs/DEMO_B_手动测试说明.md",
+      "sha256": "474a9f08a09f9a1bedc50f074c3737c850f3f5b0d6f66b87b28e9546c662b61c",
+      "bytes": 7700
+    },
+    {
+      "path": "docs/exhibit_provenance.json",
+      "sha256": "222d65d40ad31e48b70010bcd3057ba68b0f3b002a62ac457628e3a96b883db8",
+      "bytes": 1248
+    },
+    {
+      "path": "docs/PRIVACY_REVIEW.md",
+      "sha256": "9687837e59b3e743dedff06dee44d82b0a043706015dc5142d4b714bb84db641",
+      "bytes": 2297
+    },
+    {
+      "path": "docs/PUBLICATION_CHECK.json",
+      "sha256": "ab8bc2adaf0236810887a6984182c53861576214f9768baaa9cc20f870f4b922",
+      "bytes": 3676
+    },
+    {
+      "path": "docs/PUBLISHING.md",
+      "sha256": "242d5e2987b94f9ec5e253fd7f9b8adcb02b510a886cb6ce4ef07443269e6b03",
+      "bytes": 1866
+    },
+    {
+      "path": "docs/RELEASE_CLOSEOUT.md",
+      "sha256": "dd01db4be38bff95420fe490dd0fa74eb9c27a8634e79229c0fd86706db1a47a",
+      "bytes": 5316
+    },
+    {
+      "path": "docs/source_manifest.json",
+      "sha256": "25dc740ead51cf74e29f82dfd9598589c9e9991d6702568e5fcb0a1e7da98a75",
+      "bytes": 17176
+    },
+    {
+      "path": "docs/SOURCE_REPORT.md",
+      "sha256": "b7a2acc1161ef2d0a524eea5118fd1c51badc6dad9386162f0236d5695d7f090",
+      "bytes": 4018
+    },
+    {
+      "path": "docs/TESTING.md",
+      "sha256": "df052753f4501c7b87e3feb2f526d7044df4b6a8d05c3f2ad5ecd7ea7f557509",
+      "bytes": 2322
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "1de801b60f378e6f29ea34a6762eae62dbf7aaf59f426797c6fd98979ee50e3f",
+      "bytes": 8529
+    },
+    {
+      "path": "package.json",
+      "sha256": "b2ffd44507d084f690de3067c9cd24d296423772b00b507b9b0c4931a249f457",
+      "bytes": 288
+    },
+    {
+      "path": "packages/ppt_domain/pyproject.toml",
+      "sha256": "89e506316d4514e3c80f052c1d03ec8b8e520ecec142f68209352c5ab28eab0a",
+      "bytes": 846
+    },
+    {
+      "path": "packages/ppt_domain/README.md",
+      "sha256": "30f25ada3c7bdb30be5b597a40fb1a23c8d2441f7c13b8e9d85ac542e3e8a149",
+      "bytes": 271
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/__init__.py",
+      "sha256": "42bc7587ada9634cd8b519dffdc508cafd339277f49234ff54366cb4bbc5da8b",
+      "bytes": 466
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/__init__.py",
+      "sha256": "22dbbf56e55feebcb8eec3c4850133860e0466180e95197685eef6b7004cd90d",
+      "bytes": 293
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/config.py",
+      "sha256": "bf59df05091d802bd157e770df49a5e13b635af0fc73a0293b3c3f2dfd57d86d",
+      "bytes": 4468
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/hybrid.py",
+      "sha256": "02c67883e521a35b48ab8449bf5e22aa83bdd50f812991684efc7f5de8cf4a67",
+      "bytes": 7909
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/metadata.py",
+      "sha256": "9562fed70d70d28a2dca947fd2b0af2889028a122f38366078c58a1d2edd6736",
+      "bytes": 2829
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/page_markdown.py",
+      "sha256": "6ee20d573e55883258edc1df5143315562be531230beb1a8c98a6671a2751605",
+      "bytes": 8645
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/provenance.py",
+      "sha256": "6f07594089cbd47d252d363d6d9522baa3b624ddbbf6e51422dddc709cd5fb44",
+      "bytes": 2788
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/reliability.py",
+      "sha256": "4eb0f30ea5c6ef28107d4acae0d6ae8e589347d4ccade6a8f85e04c9294743d9",
+      "bytes": 9380
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/result_schemas.py",
+      "sha256": "ef3e0a2c2a22a52ab9bd544fb98863419042e2b275a4de85eee529650e630b20",
+      "bytes": 11227
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/review.py",
+      "sha256": "51ac63abee24119f74f230dbf9a39ab4f4e4d267421934cbb206748f0b9bc9eb",
+      "bytes": 79524
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/service.py",
+      "sha256": "ee434458dbe09cda92dc75715d4186e5e9b7471883219a83ded69d498153e659",
+      "bytes": 45210
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/storage.py",
+      "sha256": "5ff428592fc28c92ae2aebd813c70774cd61fad3d19aa46d1e0396cc667d3fa3",
+      "bytes": 3413
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/table_inspection.py",
+      "sha256": "31aa406bc802d5cd89ffbf20dc6617b191a0adafeec5a54cf1ebf03dfdd53fd1",
+      "bytes": 6783
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/tool_schemas.py",
+      "sha256": "7d79f0288936f2b2714272bf405e2d5b5b70b75dcffd1792f073bff1ff3ea36e",
+      "bytes": 10424
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/pdf_assets/tools.py",
+      "sha256": "265ccdd1a7ff2789836f75abbf7bff2f9ed00ae9092c4d8ed6111f78b3a31906",
+      "bytes": 7795
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/__init__.py",
+      "sha256": "83e8c23d427b0154800e21d0ffe79e0350fbb4ad1cca0db4243c37659cef2e65",
+      "bytes": 284
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/assets.py",
+      "sha256": "fcbb96446912ba08df6d4c4a8b989627afd66c718ae885152adca85725ca9fcf",
+      "bytes": 8730
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/config.py",
+      "sha256": "20551240c5811e42e0dd4641d895534285ea114278814bee7c7d9baa5ca78011",
+      "bytes": 6016
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/markdown.py",
+      "sha256": "d28e1c0332a94fe0f9d0fa9ec0fe1e44218e9926cb48b58ce1b64255d1dabb29",
+      "bytes": 6650
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/paper_context.py",
+      "sha256": "58e0706011f92617e9caf64b99eca8f947caeb42bee7f6f403ac5e4e1dc3fc7d",
+      "bytes": 11365
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/planning.py",
+      "sha256": "0a6ab47af89e955104bff8fd8688cf29935446b3f7e03a1665594f867c6091da",
+      "bytes": 14937
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/planning_config.py",
+      "sha256": "dfb22de5f35e627fc2a9821b0e04f7926bb030cf11a828f2a0238574bd728cdb",
+      "bytes": 1904
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/planning_observer.py",
+      "sha256": "9c7e4d3f5fe020636b9b8beb64f1c88c6193f6ecc39bc331be7c0decce91bf33",
+      "bytes": 8015
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/planning_quality.py",
+      "sha256": "d843626c2d4a8c0682d9b0ccfb974b3d94e2713d2ef4a4cb54778ec23a22a34d",
+      "bytes": 9053
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/planning_review.py",
+      "sha256": "09222c4344a516d2cb8be12583650803c9ea8dc8e08f31b59add0cf0420467d8",
+      "bytes": 8871
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/planning_review_workflow.py",
+      "sha256": "580173bcacf65aac4690bf331e6c28c476a000ef6005602bd5051675cac3a00f",
+      "bytes": 9488
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/planning_revision.py",
+      "sha256": "517667e471539e9ea102b139f6006b17a0f98a4601b484b3b764cebd088e10c8",
+      "bytes": 5846
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/planning_schemas.py",
+      "sha256": "db744398309cd403439fddb98511c4d4263e7b1dbc14bf6fbce5206005643c02",
+      "bytes": 6139
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/result_schemas.py",
+      "sha256": "48dfda8947e9d4cc68c0678d1dad613dba203d00aaf697020ad22520ab60b834",
+      "bytes": 12808
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/review_contracts.py",
+      "sha256": "888ce5d824ada541011834279509fc2e80988a5d4e55903cc3dacef92471a271",
+      "bytes": 4652
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/review_evidence.py",
+      "sha256": "0da39a5dbde3884c50b0752b232af9f3c765529a98ed5ae724c15a73dacd5476",
+      "bytes": 3577
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/runtime/html_to_pptx.mjs",
+      "sha256": "4fe968659ea887eeba0b75c9c4652fc0fbb838d552d55fbb169a17f28ce26717",
+      "bytes": 12503
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/runtime/render_html.mjs",
+      "sha256": "38343d3256c9f53706849d3a154c0e931709f225ad8ba3de34af533a51e538e1",
+      "bytes": 6635
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/runtime/render_pptx.ps1",
+      "sha256": "37c3831a77e94e2e03de1d293b15d1aad326accde4d8e2837385b0909b1c1fd3",
+      "bytes": 1068
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/service.py",
+      "sha256": "5e2b3ea627b3f6eb249764b76ce104fcde084d84a80556cac70a0771e4bb0f90",
+      "bytes": 93876
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/slide_review.py",
+      "sha256": "aa0bf06ac2034631a5a70e30acaefdd56c6a7620550d0e6feda796375d010c07",
+      "bytes": 21617
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/storage.py",
+      "sha256": "0da297ac4cccbeb7a7f0824ef56067807efd6234f9478d985cdf44660028991c",
+      "bytes": 4659
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/tool_schemas.py",
+      "sha256": "4f81524f76548174ea7953fce08c638f9e7c9e36524e644e92b131925f55ce4e",
+      "bytes": 13011
+    },
+    {
+      "path": "packages/ppt_domain/src/ppt_agent_domain/presentation/tools.py",
+      "sha256": "0437a653f051fe2bb68f662d73cbaa25b10f679c04cad6201c0bd395d88c6e18",
+      "bytes": 17635
+    },
+    {
+      "path": "packages/ppt_domain/tests/test_delivery_regression.py",
+      "sha256": "a86e0155bf96a9f8373e95039376fa238e738b5e8e407ce1114130c5852a6b3e",
+      "bytes": 4105
+    },
+    {
+      "path": "packages/ppt_domain/tests/test_observer_recovery.py",
+      "sha256": "c3469a5e8fc035e240d677a8f9776cdce325842bff893d449090d1ae164f96c4",
+      "bytes": 4073
+    },
+    {
+      "path": "packages/ppt_domain/tests/test_page_closeout_recovery.py",
+      "sha256": "f10500efbc58d21aa17f332dfabba7ddcac1c990244fd957c79d0c2bb1c00b25",
+      "bytes": 13030
+    },
+    {
+      "path": "packages/ppt_domain/tests/test_paper_context.py",
+      "sha256": "ff3d70cb2bbb8c6ec80ee32c1baa7baea7e5978c639ad3ceefe6258a4bfa8dd8",
+      "bytes": 5772
+    },
+    {
+      "path": "packages/ppt_domain/tests/test_production_recovery_boundary.py",
+      "sha256": "e49d01b9c5d1920800879951f91824149142a6819c16ebf82d32f37d6cd950e3",
+      "bytes": 4072
+    },
+    {
+      "path": "packages/ppt_domain/tests/test_review_source_supplement.py",
+      "sha256": "e7101154d5445fba88fa180d53ba29faa5d957372559d9e4c33f1faa7c93e9e0",
+      "bytes": 2864
+    },
+    {
+      "path": "packages/ppt_domain/tests/test_review_workflow.py",
+      "sha256": "33f69d8da27827a8fc3eaf9f37c71fcb2f1a98ae6bff57f316b81ca480476e10",
+      "bytes": 6681
+    },
+    {
+      "path": "packages/ppt_domain/tests/test_scoped_task_state.py",
+      "sha256": "57a434aa7fc04aeb588507177a1c6192c549079118fbf47d76311dcb263af659",
+      "bytes": 4399
+    },
+    {
+      "path": "packages/ppt_domain/tests/test_slide_review_dimensions.py",
+      "sha256": "10d40a15679554cc6eeffe1d0c36565b1155dbc93c05a47be8e74903d0a8380c",
+      "bytes": 6442
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "3d0f649c8d375a7cd460cc0d8c7e11ea03b566b2eff4c4323cc4767c812b1a4a",
+      "bytes": 754
+    },
+    {
+      "path": "README.md",
+      "sha256": "fd689c0ae657896662b9f349a36245351ab58c5d497b1d2773d911b26fa74701",
+      "bytes": 7637
+    },
+    {
+      "path": "reports/verification.json",
+      "sha256": "22683936abe2de772e7b47eaf28767298e464967a703bdb2b76519da4a124629",
+      "bytes": 1758
+    },
+    {
+      "path": "reports/verification.md",
+      "sha256": "8530a777cb6e475aa15ec3b14a3a3404ed40d1652d05a06b015d79a65d098247",
+      "bytes": 4987
+    },
+    {
+      "path": "requirements-tested.txt",
+      "sha256": "8d0f7dda5ad42954e7dde4ef1eb9ade88bcefe116c0db763843e25f16f24b9f8",
+      "bytes": 525
+    },
+    {
+      "path": "showcase/demo-b-2026-11-13/final.pptx",
+      "sha256": "dd105a7e8c965570cae650b9302304936d24070b041d4f41fd6d9ae3217778e2",
+      "bytes": 137144
+    },
+    {
+      "path": "showcase/demo-b-2026-11-13/preview.png",
+      "sha256": "4d1904eed7fb167b77f9701ff635e10390053a395a151e37126a2665a3a367e3",
+      "bytes": 240126
+    },
+    {
+      "path": "showcase/demo-b-2026-11-13/provenance.json",
+      "sha256": "6691f241b27e6dfeb9a9d8742d9f49b16bac81875c95a3c94a438536427964bd",
+      "bytes": 2093
+    },
+    {
+      "path": "showcase/demo-b-2026-11-13/README.md",
+      "sha256": "cfd9cd6901b780b65e5dd910e24eb38643845084bd6cda4926995c75a9f40d71",
+      "bytes": 2061
+    },
+    {
+      "path": "showcase/demo-b-2026-11-13/resources/3f24ab8b07-177cd738f9a4ef3fd39274955df364be4edde9783c6a4e9b86a670ac0dfcd5a5.jpg",
+      "sha256": "3f24ab8b07e44d19501d63c376c3c8f7d9e2d23d0843905aa4b71abe4cd90fd6",
+      "bytes": 49376
+    },
+    {
+      "path": "showcase/demo-b-2026-11-13/run-summary.json",
+      "sha256": "3d584de673dd56a9233704a97d894af0974fa817458bf92a35c00646e139273b",
+      "bytes": 14955
+    },
+    {
+      "path": "showcase/demo-b-2026-11-13/slide.html",
+      "sha256": "2f0f857e3a922d0580b49a2b781211248826ae88bc68ac184d1941dbc2ccff8a",
+      "bytes": 8763
+    },
+    {
+      "path": "showcase/demo-b-2026-11-13/source.pdf",
+      "sha256": "2d18aef292ab63b1b20f2f28f8765ac09b95892c946fa62c3047975fc3f874c8",
+      "bytes": 1054364
+    },
+    {
+      "path": "showcase/demo-b-2026-11-13/tool-trace.json",
+      "sha256": "ae559063351d42e6132e5ac2e8359337d1e4d797d5edab14a47e10fa281e6df3",
+      "bytes": 9217
+    },
+    {
+      "path": "showcase/index.html",
+      "sha256": "7177d8ea75ff669f26bdcc3ab736a5cdde60ed7fa42519b6583b38a212efb778",
+      "bytes": 6396
+    },
+    {
+      "path": "skills/paper-planning/SKILL.md",
+      "sha256": "d2d127dac2debd1ba8c492a2ccaa2c0b355e161af02668ca9c83ec78bed2ff01",
+      "bytes": 7439
+    },
+    {
+      "path": "skills/pdf-asset-preparation/references/scenarios-and-recovery.md",
+      "sha256": "4267c3564a24bc693dcfac9b7eae7af6cfbc415fa060350de7395b53e79e4cd6",
+      "bytes": 7675
+    },
+    {
+      "path": "skills/pdf-asset-preparation/references/tool-contracts.md",
+      "sha256": "dfed59af77cb38769a3b9278e8939afc99afde22c57eb37bf257bed34017b84a",
+      "bytes": 10733
+    },
+    {
+      "path": "skills/pdf-asset-preparation/SKILL.md",
+      "sha256": "4363e0b75b7ae3a62b728597088094c4cda41ec8f85eaae2fc3f28ca6c036d18",
+      "bytes": 8845
+    },
+    {
+      "path": "skills/ppt-production/references/html-export-contract.md",
+      "sha256": "20fafab5cf9556bb969936c58212ca94347e64da57f2c256375955a36c565d9e",
+      "bytes": 2564
+    },
+    {
+      "path": "skills/ppt-production/references/pdf-asset-reading.md",
+      "sha256": "09c38ecefc7d217fdfd55dd66867d8eb75daf7779603ce529696d95c34d13d3f",
+      "bytes": 4429
+    },
+    {
+      "path": "skills/ppt-production/SKILL.md",
+      "sha256": "9a43a0e6984a95f167a7076715786ba7d60d6752c21b242de20591651122eab4",
+      "bytes": 14322
+    },
+    {
+      "path": "tests/test_asset_model_routing.py",
+      "sha256": "586afdac5ed3490c3ad9b1fd0108daf49b68c7c461e16d89d39b6f117ff7baf5",
+      "bytes": 3147
+    },
+    {
+      "path": "tests/test_demo_deadline.py",
+      "sha256": "df502a05bfb08876d79822fe4b107e74c00ff1f5e82fb516a6f48269cd48ed0e",
+      "bytes": 1815
+    },
+    {
+      "path": "tests/test_demo_progress.py",
+      "sha256": "33f7843fb7fcd13b1b9396bbdf1b0d47f82843c0e6aad0602a8a18cd1c4c1133",
+      "bytes": 3175
+    },
+    {
+      "path": "tests/test_frozen_demo.py",
+      "sha256": "c840711751daf503fc6d93567ad8a73b9d8931a3d14a6af131bc8e2d6fadc15d",
+      "bytes": 2962
+    },
+    {
+      "path": "tests/test_publication_guard.py",
+      "sha256": "9c8f04495a2bf66125028a092244ca885fe7a2834291e412a258fdcf040457cf",
+      "bytes": 1953
+    },
+    {
+      "path": "tests/test_raw_demo_input.py",
+      "sha256": "3bc8faff3c33d98fa86e30118c30584969808435329a199c789347cc864613cf",
+      "bytes": 2118
+    },
+    {
+      "path": "tests/test_release.py",
+      "sha256": "a8c5ef6af0aa3fa91e602cf500cd5748dca5463b0f5dfe14efe651f07e9c05b6",
+      "bytes": 3174
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "4ca171a91068fd28b690ce0f92ad6c13a5c2a986513ae70b2f5df75fb7379786",
+      "bytes": 1177
+    },
+    {
+      "path": "tools/check_environment.py",
+      "sha256": "ceffd8abc77e2fade51c9f348d34e6f2d3f8ac05a09b3ceed87bb4a1a5e61232",
+      "bytes": 277
+    },
+    {
+      "path": "tools/package_release.py",
+      "sha256": "7c45246071c69847638e30ade24bacca6ae4537bbce7b54b7324986eae14cb72",
+      "bytes": 5764
+    },
+    {
+      "path": "tools/run_demo_b_timed.py",
+      "sha256": "47f34ce2039a39d344336ccf9e74f3dcaed3d2d0090c0b15a03afd0596440453",
+      "bytes": 2345
+    },
+    {
+      "path": "tools/serve_showcase.py",
+      "sha256": "ba352561fd42f326f58913bb5950950bef461aa873300f7eede1e0a292a60831",
+      "bytes": 530
+    },
+    {
+      "path": "tools/verify_local_site.py",
+      "sha256": "3fab0636e75a6132eb9844d3cfbeb9c49d35bdb6553377eb62b5fb937775dfed",
+      "bytes": 1355
+    },
+    {
+      "path": "tools/verify_showcase.mjs",
+      "sha256": "7eb4e9e5b89214fd695dfc80e6e02d7f3ff9d7583ebded368e0784f63bd77299",
+      "bytes": 2075
+    },
+    {
+      "path": "tools/watch_demo_b.py",
+      "sha256": "843fe6bc3810d81f676aab77edf44ae281fabb5bc95d1640646b3b1a06427fbf",
+      "bytes": 7567
+    }
+  ],
+  "omitted": [
+    ".env",
+    ".venv",
+    "node_modules",
+    ".build",
+    "outputs",
+    "raw local logs",
+    "third-party PDFs/figures (owned synthetic source explicitly included)",
+    "personal documents"
+  ],
+  "audit": "allowlist plus regex scan: text, PDF text/objects, PPTX XML, image metadata; no OCR/steganography or legal audit"
+}

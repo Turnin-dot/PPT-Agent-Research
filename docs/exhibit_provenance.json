@@ -1,0 +1,23 @@
+{
+  "materials": [
+    {
+      "file": "showcase/assets/historical-cover.html",
+      "source": "artifacts/lightfield_delivery_2026-11-05/run-01/ppt_tasks/paper-planning/slides/slide-01/html/v4/slide.html",
+      "sha256": "36b9a30b0fb9ff5923807f2f48957ec7d39e59aee40ddde1c031106d030bc4e1",
+      "description": "Historical AI cover HTML v4; metadata and CSS decoration only"
+    },
+    {
+      "file": "showcase/assets/historical-cover.png",
+      "source": "artifacts/lightfield_delivery_2026-11-05/run-01/ppt_tasks/paper-planning/slides/slide-01/renders/html-v4/preview.png",
+      "sha256": "975c747c65101aa34a8156d6624648f92d1de45655fab0ac3599f432347a1656",
+      "description": "Chromium screenshot associated with historical HTML v4"
+    },
+    {
+      "file": "showcase/assets/historical-pptx-cover.png",
+      "source": "artifacts/round1_delivery_fix_2026-11-04/run-02/rendered-v2/幻灯片1.PNG",
+      "sha256": "01a5133d383b7eeeb56e2bcb00aa2c243786d29ba7d991cd391ddde67066017b",
+      "description": "Separate older fixed-v2 PowerPoint COM rendered cover; NOT the same HTML version"
+    }
+  ],
+  "sanitization": "No paper PDF, paper figure or full internal logs; all candidate exhibits remain license-pending."
+}

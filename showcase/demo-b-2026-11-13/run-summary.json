@@ -1,0 +1,555 @@
+{
+  "schema_version": "public-demo-snapshot/v1",
+  "date": "2026-11-13",
+  "run_label": "my-demo-b-03",
+  "input_mode": "raw_pdf",
+  "input_scope": "One-page self-authored synthetic PDF; not a real scientific paper",
+  "status": "incomplete",
+  "cli_status": "export_requires_final_validation",
+  "wall_seconds": 755.3051160000032,
+  "agent_wall_seconds": 753.5701052000004,
+  "timed_out": false,
+  "exit_code": 0,
+  "tool_calls": 39,
+  "tool_failures": 5,
+  "tool_elapsed_seconds_sum": 248.61821579997923,
+  "usage": {
+    "input_tokens": 1251708,
+    "output_tokens": 38150,
+    "reasoning_tokens": 17303,
+    "cached_tokens": 1155072
+  },
+  "usage_note": "Cumulative input/output; cache and reasoning are subsets. Not a single context size.",
+  "sdk_http_retry_count": null,
+  "cost": null,
+  "cost_note": "Verified account prices/invoice unavailable; unknown is not zero.",
+  "model_calls": [
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 14344,
+        "output_tokens": 249,
+        "reasoning_tokens": 159,
+        "cached_tokens": 0
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 6.458612499998708
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 16632,
+        "output_tokens": 278,
+        "reasoning_tokens": 217,
+        "cached_tokens": 14336
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 5.5492966000019806
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 19338,
+        "output_tokens": 230,
+        "reasoning_tokens": 83,
+        "cached_tokens": 16384
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 4.647409099998185
+    },
+    {
+      "category": "internal_vision",
+      "model": "deepseek-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 2776,
+        "output_tokens": 661,
+        "reasoning_tokens": 400,
+        "cached_tokens": 512
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 4.656354300001112
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 21073,
+        "output_tokens": 208,
+        "reasoning_tokens": 49,
+        "cached_tokens": 18432
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 4.267765099997632
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 23692,
+        "output_tokens": 935,
+        "reasoning_tokens": 563,
+        "cached_tokens": 20480
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 16.180822199996328
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 29346,
+        "output_tokens": 863,
+        "reasoning_tokens": 488,
+        "cached_tokens": 23552
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 15.972918200001004
+    },
+    {
+      "category": "internal_vision",
+      "model": "deepseek-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 876,
+        "output_tokens": 1378,
+        "reasoning_tokens": 867,
+        "cached_tokens": 0
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 7.386256000005233
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 30642,
+        "output_tokens": 110,
+        "reasoning_tokens": 29,
+        "cached_tokens": 28672
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 2.4698820000048727
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 31904,
+        "output_tokens": 1104,
+        "reasoning_tokens": 896,
+        "cached_tokens": 30464
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 19.428177399997367
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 32913,
+        "output_tokens": 242,
+        "reasoning_tokens": 40,
+        "cached_tokens": 31744
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 4.866019599998253
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 33314,
+        "output_tokens": 2364,
+        "reasoning_tokens": 1187,
+        "cached_tokens": 32768
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 41.964861200001906
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 34759,
+        "output_tokens": 6436,
+        "reasoning_tokens": 3082,
+        "cached_tokens": 32768
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 98.7224126000001
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 38148,
+        "output_tokens": 1816,
+        "reasoning_tokens": 114,
+        "cached_tokens": 34048
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 24.606664599996293
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 39947,
+        "output_tokens": 298,
+        "reasoning_tokens": 255,
+        "cached_tokens": 37888
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 5.252692300004128
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 40020,
+        "output_tokens": 1873,
+        "reasoning_tokens": 153,
+        "cached_tokens": 39936
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 21.346197999999276
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 43121,
+        "output_tokens": 149,
+        "reasoning_tokens": 43,
+        "cached_tokens": 39936
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 3.41014840000571
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 44472,
+        "output_tokens": 5070,
+        "reasoning_tokens": 1511,
+        "cached_tokens": 43008
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 64.53612969999813
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 48066,
+        "output_tokens": 1907,
+        "reasoning_tokens": 187,
+        "cached_tokens": 44032
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 22.154805199999828
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 51170,
+        "output_tokens": 109,
+        "reasoning_tokens": 18,
+        "cached_tokens": 47104
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 2.2528296999953454
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 52216,
+        "output_tokens": 2083,
+        "reasoning_tokens": 1738,
+        "cached_tokens": 50176
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 29.243969499999366
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 52588,
+        "output_tokens": 693,
+        "reasoning_tokens": 177,
+        "cached_tokens": 51968
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 8.606676600000355
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 53165,
+        "output_tokens": 1769,
+        "reasoning_tokens": 49,
+        "cached_tokens": 52224
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 21.190709999995306
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 56259,
+        "output_tokens": 447,
+        "reasoning_tokens": 101,
+        "cached_tokens": 52224
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 7.769815900006506
+    },
+    {
+      "category": "internal_vision",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 11411,
+        "output_tokens": 2682,
+        "reasoning_tokens": 2537,
+        "cached_tokens": 0
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 41.41488720000052
+    },
+    {
+      "category": "internal_vision",
+      "model": "doubao-seed-2-1-turbo-260628",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 8767,
+        "output_tokens": 276,
+        "reasoning_tokens": 0,
+        "cached_tokens": 0
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 8.188610899997002
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 58238,
+        "output_tokens": 184,
+        "reasoning_tokens": 60,
+        "cached_tokens": 55552
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 3.526760299995658
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 59403,
+        "output_tokens": 80,
+        "reasoning_tokens": 33,
+        "cached_tokens": 57344
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 2.0365746000024956
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 59630,
+        "output_tokens": 796,
+        "reasoning_tokens": 706,
+        "cached_tokens": 59392
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 14.601214000002074
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 60331,
+        "output_tokens": 375,
+        "reasoning_tokens": 287,
+        "cached_tokens": 59392
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 7.332093100005295
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 60599,
+        "output_tokens": 737,
+        "reasoning_tokens": 641,
+        "cached_tokens": 59392
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 14.947234999999637
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 60999,
+        "output_tokens": 184,
+        "reasoning_tokens": 143,
+        "cached_tokens": 60416
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 4.594915100002254
+    },
+    {
+      "category": "main_agent",
+      "model": "qwen3.8-flash",
+      "status": "succeeded",
+      "usage": {
+        "input_tokens": 61549,
+        "output_tokens": 1564,
+        "reasoning_tokens": 490,
+        "cached_tokens": 60928
+      },
+      "attempt": 1,
+      "is_retry": false,
+      "sdk_retry_count": null,
+      "elapsed_seconds": 26.898695299998508
+    }
+  ],
+  "current_versions": {
+    "plan": 1,
+    "html": 3,
+    "binding": 3,
+    "content_review": 1,
+    "visual_review": 1,
+    "export": 1
+  },
+  "reviews": {
+    "content": "pass",
+    "visual": "pass",
+    "html_version": 3,
+    "visual_optional_findings": 1
+  },
+  "export": {
+    "sha256": "dd105a7e8c965570cae650b9302304936d24070b041d4f41fd6d9ae3217778e2",
+    "source_html_version": 3,
+    "text_objects": 31,
+    "independent_images": 1,
+    "other_shapes": 33,
+    "structure_validation": "pass",
+    "rendered_visual_comparison": false
+  },
+  "final_render": {
+    "attempts": 2,
+    "succeeded": false,
+    "error_class": "BadImageFormatException",
+    "hresult": "0x80070570",
+    "root_cause": "Not established; failure recorded at PowerPoint rendering step."
+  },
+  "delivery_caveat": "Task recorded complete/pass after structure-only export validation; not final rendered visual acceptance.",
+  "redaction": "Allowlisted numerical fields, tool names and failure classes only. No prompts, responses, arguments, absolute paths or session logs."
+}

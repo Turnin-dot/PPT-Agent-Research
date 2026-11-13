@@ -1,0 +1,20 @@
+name: Offline mechanisms
+on: [push, pull_request]
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: python -m pip install -c constraints-tested.txt -e './agent_harness[all]' -e ./packages/ppt_domain -e ./apps/api -e '.[dev]'
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: python -m pytest -q
+      - run: python -m demos.offline --output outputs/ci-offline
+      - run: python -m demos.single_page --output outputs/ci-preflight
